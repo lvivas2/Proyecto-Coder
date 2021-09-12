@@ -1,0 +1,95 @@
+
+body{
+    background-color: black;
+}
+
+#Equipo {
+    padding-top: 6rem;
+}
+
+.section__container .team--titel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: $color-titel;
+    padding-bottom: 50px;
+}
+.section__container .team--h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: $color-titel;
+}
+
+//animacion
+
+.section__container .team {
+    display: flex;
+    width: 400px;
+    height: 40px;
+    font-size: 39px;
+    line-height: 40px;
+    overflow: hidden;
+    padding-left: 7%;
+    margin: auto;
+}
+
+.section__container .ul {
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 7s infinite;
+    color: rgb(95, 255, 89);
+}
+
+.section__container .team ul,
+h2 {
+    margin: 0;
+}
+
+@keyframes cambiar {
+    0% {
+        margin-top: 0;
+    }
+    20% {
+        margin-top: 0;
+    }
+
+    25% {
+        margin-top: -40px;
+    }
+    50% {
+        margin-top: -40px;
+    }
+
+    55% {
+        margin-top: -80px;
+    }
+    80% {
+        margin-top: -80px;
+    }
+
+    85% {
+        margin-top: -40px;
+    }
+    95% {
+        margin-top: -40px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+.section__container .equipo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: $color-titel;
+}
+
+.section__container .equipo__avatar {
+    padding-top: 70px;
+    width: 15rem;
+}
+
+//Leo

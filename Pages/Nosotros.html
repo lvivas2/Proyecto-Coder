@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="keywords" content="Portfolio, freelance, programacion" />
+  <meta name="description" content="Programadores freelance. Especializados en distintas tecnología" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Team</title>
+</head>
+
+<body>
+
+  <h1>TITULO</h1>
+  <div>
+    <header class="header">
+      <nav class="navbar navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> GYO COMPANY.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header bg-dark">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="offcanvasNavbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">Nosotros</a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#equipo">Equipo</a></li>
+                  </ul>
+                </li>
+
+
+
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="Contactos.html">Contactos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="offcanvasNavbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">Servicios
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">Ver todos</a></li>
+                    <li><a class="dropdown-item" href="#">Servicio 1</a></li>
+                    <li><a class="dropdown-item" href="#">Servicio 2</a></li>
+                    <li><a class="dropdown-item" href="#">Servicio 3</a></li>
+                    <li><a class="dropdown-item" href="#">Servicio 5</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Proyectos</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                <button class="btn btn-secondary" type="submit">
+                  Buscar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class=main__nosotros>
+        <h2>
+          !- - NOSOTROS - ->
+        </h2>
+        <p class="p1">Te apoyamos para desarrollar tecnología y sostenibilidad
+
+          Buscamos entregar soluciones a tus proyectos, desde una fase inicial hasta la ejecución y mantenimiento, con
+          el unico proprosito de que tu idea sobresalga.
+          Desarrollamos soluciones tecnológicas con un enfoque sostenible</p>
+
+        <p class="p2">¿Cómo podemos ayudarte?</p>
+
+        <div class="p3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/desarrollo-web.jpg" class="d-block w-50 mx-auto "
+                  alt="imagen relacionada al desarrollo WEB">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/cubo.jpg" class="d-block w-50 mx-auto" alt="imagen de un cubo de rubik">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/base de datos.jpg" class="d-block w-50 mx-auto"
+                  alt="imagen relacionada a base de datos">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <p class="p4">Nosotros programamos, tu nos das las ideas<br><br>
+          Construimos soluciones solidas tomando como base las ideas principales del cliente, agregamos asesorias para
+          aplicanr el maxmimo valor al producto.
+        </p>
+
+        <p class="p5">Nosotros aprendemos
+        </p>
+        <p class="p7">
+          Nos enfocamos en adquirir nuevos conocimientos
+          para poder brindarle al cliente las herramientas mas actuales. </p>
+
+        <div class="p8">
+          <p class="p8__til">Algunos de Nuestros conocimientos</p>
+          <p class="p8__sis">SISTEMAS</p>
+          <p class="p8__c-sis">Desarrollamos sofware a medida</p>
+          <p class="p8__app">APPS</p>
+          <p class="p8__c-app">Aplicaciones hibridas & nativas para Android & iOS</p>
+          <p class="p8__e-com">WEB & E-COMMERCE</p>
+          <p class="p8__c-com">Tu negocio online</p>
+          <p class="p8__out">OUTSOURCING</p>
+          <p class="p8__c-out">Sumamos valor a tu negocio, con profesionales altamente capacitados</p>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+
+  <section id="equipo">
+
+    <div class="section__container">
+
+      <h2 class="section__container team--titel">EQUIPO</h2>
+
+      <div class="section__container team">
+        <h2 class="section__container team--h2">G Y O</h2>
+        <ul class="section__container ul">
+          <li>Desarrolla</li>
+          <li>Soluciona</li>
+          <li>Innova</li>
+        </ul>
+      </div>
+
+      <div class="section__container equipo">
+
+        <img class="section__container equipo__avatar" src="../img/oz.svg" alt="avatar de osman ramirez">
+        <h2>Osman Ramirez</h2>
+
+        <p>Programador junior</p>
+
+        <div class="redsocial">
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1"
+                href="https://www.facebook.com/profile.php?id=100009871536921" role="button"><i
+                  class="bi bi-facebook"></i></a>
+
+              <!-- Twitter -->
+              <!-- <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-twitter"></i
+                ></a> -->
+
+              <!-- Google -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-google"></i></a>
+
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/gyocompany/"
+                role="button"><i class="bi bi-instagram"></i></a>
+
+              <!-- Linkedin -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="bi bi-linkedin"></i></a>
+
+              <!-- Github -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="portafolio">
+
+    <h2 class="portafolio portfolio--item">
+      PORTFOLIO
+    </h2>
+    <div class="portfolio__icon">
+      <i class="bi bi-eyeglasses"></i>
+      <i class="bi bi-code-slash"></i>
+      <i class="bi bi-cup"></i>
+
+    </div>
+
+    <div class="contenedor__icon">
+
+      <div class="portfolio__icon--icon">
+        <ul class="portfolio__icon iconos">
+          <li class="cabin"></li>
+        </ul>
+      </div>
+
+      <div class="portfolio__icon--icon2">
+        <ul class="portfolio__icon iconos">
+          <li class="cake"></li>
+        </ul>
+      </div>
+
+      <div class="portfolio__icon--icon3">
+        <ul class="portfolio__icon iconos">
+          <li class="circus"></li>
+        </ul>
+      </div>
+
+      <div class="portfolio__icon--icon4">
+        <ul class="portfolio__icon iconos">
+          <li class="game"></li>
+        </ul>
+      </div>
+
+      <div class="portfolio__icon--icon5">
+        <ul class="portfolio__icon iconos">
+          <li class="safe"></li>
+        </ul>
+      </div>
+
+      <div class="portfolio__icon--icon6">
+        <ul class="portfolio__icon iconos">
+          <li class="submarine"></li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="section__container">
+    <div class="section__container equipo">
+
+      <img class="section__container equipo__avatar" src="../img/Leo.svg" alt="avatar de Leonardo Vivas">
+      <h2>Leonardo Vivas</h2>
+
+      <p>Programador junior</p>
+
+      <div class="redsocial">
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1"
+              href="https://www.facebook.com/profile.php?id=100009871536921" role="button"><i
+                class="bi bi-facebook"></i></a>
+
+            <!-- Twitter -->
+            <!-- <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="bi bi-twitter"></i
+              ></a> -->
+
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-google"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/gyocompany/"
+              role="button"><i class="bi bi-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-linkedin"></i></a>
+
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-github"></i></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </section>
+
+  <section class="portafolio">
+
+    <h2 class="portafolio portfolio--item">
+      PORTFOLIO
+    </h2>
+    <div class="portfolio__icon">
+      <i class="bi bi-eyeglasses"></i>
+      <i class="bi bi-code-slash"></i>
+      <i class="bi bi-cup"></i>
+
+    </div>
+
+    <div class="contenedor__icon">
+
+      <div class="portfolio__icon--icon">
+        <ul class="portfolio__icon iconos">
+          <li class="cabin"></li>
+        </ul>
+      </div>
+
+      <div class="portfolio__icon--icon2">
+        <ul class="portfolio__icon iconos">
+          <li class="cake"></li>
+        </ul>
+      </div>
+
+      <div class="portfolio__icon--icon3">
+        <ul class="portfolio__icon iconos">
+          <li class="circus"></li>
+        </ul>
+      </div>
+
+      <div class="portfolio__icon--icon4">
+        <ul class="portfolio__icon iconos">
+          <li class="game"></li>
+        </ul>
+      </div>
+
+      <div class="portfolio__icon--icon5">
+        <ul class="portfolio__icon iconos">
+          <li class="safe"></li>
+        </ul>
+      </div>
+
+      <div class="portfolio__icon--icon6">
+        <ul class="portfolio__icon iconos">
+          <li class="submarine"></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <footer class="bg-dark text-center text-white footer">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100009871536921"
+          role="button"><i class="bi bi-facebook"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/gyocompany/" role="button"><i
+            class="bi bi-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-linkedin"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-2" style="background-color: #49464a9f">© 2021 Copyright:
+      <a class="text-white" href="#">GYOcompany.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+.portafolio {
+    padding-top: 1rem;
+
+    .portfolio--item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        grid-area: port;
+        color: $color-titel;
+    }
+    .portfolio__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 15px;
+        font-size: 1.5em;
+        grid-area: ico;
+        margin-bottom: 0;
+
+        //ejemplo de condicional
+        @if ($color == blanco) {
+            color: white;
+        } @else if ($color == verde-neon) {
+            color: greenyellow;
+        } @else {
+            color: red;
+        }
+    }
+}
+
+@each $iconportfolio in cabin, cake, circus, game, safe, submarine {
+    .#{$iconportfolio} {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-position: center;
+        background-size: cover;
+        list-style: none;
+        display: inline-block;
+        margin: 10px;
+
+        background-image: url("../img/portfolio/#{$iconportfolio}.png");
+    }
+}
+
+@each $iconul in portfolio__icon--icon, portfolio__icon--icon2, portfolio__icon--icon3, portfolio__icon--icon4,
+    portfolio__icon--icon5, portfolio__icon--icon6
+{
+    .#{$iconul} {
+        background: repeating-linear-gradient(#070606, #3f87a6 100%);
+        display: block;
+        width: 50%;
+        @media screen and (max-width: 800px) {
+            background-color: gray;
+            width: 100%;
+        }
+    }
+}
+
+.contenedor__icon {
+    display: flex;
+    background-color: rgb(111, 0, 255);
+
+    @media screen and (max-width: 800px) {
+        display: block;
+        background-color: violet;
+        width: 100%;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+}
