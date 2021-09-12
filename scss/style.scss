@@ -256,6 +256,7 @@ $color: blanco;
 
 @import "./portfolio";
 @import "./nosotros";
+@import "./carga";
 
 .portfolio--item {
   @if ($color-titel == blanco) {
