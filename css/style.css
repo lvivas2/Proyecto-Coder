@@ -479,27 +479,33 @@ h2 {
     color: white;
     grid-area: titulo; }
   .header .header__uno img {
-    display: block;
+    position: relative;
+    display: flex;
     margin: auto;
     height: 300px; }
   .header .header__dos img {
-    display: block;
+    position: relative;
+    display: flex;
     margin: auto;
     height: 300px; }
   .header .header__tres img {
-    display: block;
+    position: relative;
+    display: flex;
     margin: auto;
     height: 300px; }
   .header .header__cuatro img {
-    display: block;
+    position: relative;
+    display: flex;
     margin: auto;
     height: 300px; }
   .header .header__cinco img {
-    display: block;
+    position: relative;
+    display: flex;
     margin: auto;
     height: 300px; }
   .header .header__seis img {
-    display: block;
+    position: relative;
+    display: flex;
     margin: auto;
     height: 300px; }
   .header .header__uno {

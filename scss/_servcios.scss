@@ -19,13 +19,13 @@
         header__seis img
     {
         .#{$iconservis} {
-           display: block;
-           margin: auto;
-            // width: 1fr;
+            position: relative;
+            display: flex;
+            margin: auto;
+
             height: 300px;
         }
     }
-
     .header__uno {
         grid-area: uno;
     }
