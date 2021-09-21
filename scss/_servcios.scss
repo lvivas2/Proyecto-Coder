@@ -1,0 +1,47 @@
+.header {
+    background-color: blue;
+    border: solid 10px white;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60px repeat(2, 300px);
+    gap: 10px;
+    grid-template-areas:
+        "titulo titulo titulo"
+        "uno dos tres"
+        "cuatro cinco seis";
+    h1 {
+        color: $color-titel;
+        grid-area: titulo;
+    }
+
+    @each $iconservis in header__uno img, header__dos img, header__tres img, header__cuatro img, header__cinco img,
+        header__seis img
+    {
+        .#{$iconservis} {
+           display: block;
+           margin: auto;
+            // width: 1fr;
+            height: 300px;
+        }
+    }
+
+    .header__uno {
+        grid-area: uno;
+    }
+    .header__dos {
+        grid-area: dos;
+    }
+    .header__tres {
+        grid-area: tres;
+    }
+    .header__cuatro {
+        grid-area: cuatro;
+    }
+    .header__cinco {
+        grid-area: cinco;
+    }
+    .header__seis {
+        grid-area: seis;
+    }
+}
