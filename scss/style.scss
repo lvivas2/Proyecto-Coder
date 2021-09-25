@@ -1,6 +1,11 @@
 $color-titel: white;
-//ejemplo de condicional
+$color-body: black;
 $color: blanco;
+
+
+body{
+ background-color:  $color-body;
+}
 
 * {
   padding: 0;
@@ -10,6 +15,7 @@ $color: blanco;
 }
 
 .conteiner {
+
   display: grid;
   max-width: 100%;
   height: 100vh;
@@ -17,7 +23,6 @@ $color: blanco;
     "header header header"
     "main main main"
     "p p p"
-    "wid1 wid1 wid2"
     "footer footer footer";
   grid-template-columns: repeat(3, 1 fr);
   grid-template-rows: 0px auto 100px 100px 130px;
@@ -48,14 +53,6 @@ $color: blanco;
   }
 }
 
-// .widget1 {
-//   grid-area: wid1;
-
-// }
-
-// .widget2 {
-//   grid-area: wid2;
-// }
 
 .conteiner .footer {
   grid-area: footer;
