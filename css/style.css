@@ -277,7 +277,7 @@
   background-image: url("../img/portfolio/submarine.png"); }
 
 .portfolio__icon--icon {
-  background: repeating-linear-gradient(#070606, #3f87a6 100%);
+  background: repeating-linear-gradient(#070606, #a63f3f 100%);
   display: block;
   width: 50%; }
   @media screen and (max-width: 800px) {
@@ -286,7 +286,7 @@
       width: 100%; } }
 
 .portfolio__icon--icon2 {
-  background: repeating-linear-gradient(#070606, #3f87a6 100%);
+  background: repeating-linear-gradient(#070606, #a63f3f 100%);
   display: block;
   width: 50%; }
   @media screen and (max-width: 800px) {
@@ -295,7 +295,7 @@
       width: 100%; } }
 
 .portfolio__icon--icon3 {
-  background: repeating-linear-gradient(#070606, #3f87a6 100%);
+  background: repeating-linear-gradient(#070606, #a63f3f 100%);
   display: block;
   width: 50%; }
   @media screen and (max-width: 800px) {
@@ -304,7 +304,7 @@
       width: 100%; } }
 
 .portfolio__icon--icon4 {
-  background: repeating-linear-gradient(#070606, #3f87a6 100%);
+  background: repeating-linear-gradient(#070606, #a63f3f 100%);
   display: block;
   width: 50%; }
   @media screen and (max-width: 800px) {
@@ -313,7 +313,7 @@
       width: 100%; } }
 
 .portfolio__icon--icon5 {
-  background: repeating-linear-gradient(#070606, #3f87a6 100%);
+  background: repeating-linear-gradient(#070606, #a63f3f 100%);
   display: block;
   width: 50%; }
   @media screen and (max-width: 800px) {
@@ -322,7 +322,7 @@
       width: 100%; } }
 
 .portfolio__icon--icon6 {
-  background: repeating-linear-gradient(#070606, #3f87a6 100%);
+  background: repeating-linear-gradient(#070606, #a63f3f 100%);
   display: block;
   width: 50%; }
   @media screen and (max-width: 800px) {
@@ -467,7 +467,8 @@ h2 {
   50% {
     transform: scale(1.3, 1); } }
 
-.header {
+.header__servicios {
+  padding-top: 50px;
   background-color: blue;
   border: solid 10px white;
   display: grid;
@@ -475,50 +476,50 @@ h2 {
   grid-template-rows: 60px repeat(2, 300px);
   gap: 10px;
   grid-template-areas: "titulo titulo titulo" "uno dos tres" "cuatro cinco seis"; }
-  .header h1 {
+  .header__servicios h1 {
     color: white;
     grid-area: titulo; }
-  .header .header__uno img {
+  .header__servicios .header__uno img {
     position: relative;
     display: flex;
     margin: auto;
     height: 300px; }
-  .header .header__dos img {
+  .header__servicios .header__dos img {
     position: relative;
     display: flex;
     margin: auto;
     height: 300px; }
-  .header .header__tres img {
+  .header__servicios .header__tres img {
     position: relative;
     display: flex;
     margin: auto;
     height: 300px; }
-  .header .header__cuatro img {
+  .header__servicios .header__cuatro img {
     position: relative;
     display: flex;
     margin: auto;
     height: 300px; }
-  .header .header__cinco img {
+  .header__servicios .header__cinco img {
     position: relative;
     display: flex;
     margin: auto;
     height: 300px; }
-  .header .header__seis img {
+  .header__servicios .header__seis img {
     position: relative;
     display: flex;
     margin: auto;
     height: 300px; }
-  .header .header__uno {
+  .header__servicios .header__uno {
     grid-area: uno; }
-  .header .header__dos {
+  .header__servicios .header__dos {
     grid-area: dos; }
-  .header .header__tres {
+  .header__servicios .header__tres {
     grid-area: tres; }
-  .header .header__cuatro {
+  .header__servicios .header__cuatro {
     grid-area: cuatro; }
-  .header .header__cinco {
+  .header__servicios .header__cinco {
     grid-area: cinco; }
-  .header .header__seis {
+  .header__servicios .header__seis {
     grid-area: seis; }
 
 .portfolio--item {
