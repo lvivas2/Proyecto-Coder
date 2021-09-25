@@ -9,7 +9,6 @@ $color: blanco;
   font-family: "Ubuntu", sans-serif;
 }
 
-
 .conteiner {
   display: grid;
   max-width: 100%;
@@ -43,7 +42,6 @@ $color: blanco;
   justify-content: center;
   padding-top: 8px;
   padding-bottom: 10px;
-  
 
   @media screen and (min-width: 574) {
     overflow-y: scroll;
@@ -52,7 +50,7 @@ $color: blanco;
 
 // .widget1 {
 //   grid-area: wid1;
-  
+
 // }
 
 // .widget2 {
@@ -269,28 +267,23 @@ $color: blanco;
   }
 }
 
-
 //ANIMACION TITULO
 
-.main .h1__titulo{
+.main .h1__titulo {
   margin: auto;
   display: table;
-  
 }
-.main h1{
-  
-position: relative;
-float: left;
-letter-spacing: 0.085em;
- 
+.main h1 {
+  position: relative;
+  float: left;
+  letter-spacing: 0.085em;
 
-  .main__span{
+  .main__span {
     position: absolute;
     right: 0;
     width: 0;
     background-color: black;
     border-left: 3px solid white;
-    
 
     animation: maquina 2s infinite alternate steps(13);
   }
@@ -300,7 +293,7 @@ letter-spacing: 0.085em;
   from {
     width: 100%;
   }
-  to{
+  to {
     width: 0;
   }
 }
